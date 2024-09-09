@@ -1,0 +1,19 @@
+{
+  "players": {
+    "Giorgi Mamardashvili": {
+      "position": "Goalkeeper",
+      "number": 25,
+      "img": "images\/giorgi-mamardashvili.png"
+    },
+    "Giorgi Kochorashvili": {
+      "position": "Defender",
+      "number": 5,
+      "img": "images\/giorgi-kochorashvili.png"
+    },
+    "Khvicha Kvaratskhelia": {
+      "position": "Midfielder",
+      "number": 11,
+      "img": "images\/khvicha-kvaratskhelia.png"
+    }
+  }
+}

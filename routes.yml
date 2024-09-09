@@ -1,0 +1,31 @@
+routes:
+  - method: GET
+    path: /
+    controller: \GFF\Official\Controller\HomeController
+  - method: GET
+    path: /home
+    controller: \GFF\Official\Controller\HomeController
+  - method: GET
+    path: /players
+    controller: \GFF\Official\Controller\PlayersController
+  - method: GET
+    path: /contact
+    controller: \GFF\Official\Controller\ContactController
+  - method: GET
+    path: /signup
+    controller: '\GFF\Official\Controller\UserRegisterController:signupPage'
+  - method: POST
+    path: /register-user
+    controller: '\GFF\Official\Controller\UserRegisterController:registerUser'
+  - method: GET
+    path: /login
+    controller: '\GFF\Official\Controller\UserLoginController:loginPage'
+  - method: POST
+    path: /authenticate
+    controller: '\GFF\Official\Controller\UserLoginController:authenticate'
+  - method: GET
+    path: /logout
+    controller: '\GFF\Official\Controller\UserLoginController:logout'
+  - method: GET
+    path: /users
+    controller: '\GFF\Official\Controller\UsersController:displayUsers'

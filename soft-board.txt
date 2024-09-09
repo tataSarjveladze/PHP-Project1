@@ -1,0 +1,30 @@
+
+/**
+ * Recursion is a programming technique where a function calls itself in order to solve smaller instances of the same problem.
+ * It's like breaking down a complex problem into simpler sub-problems of the same type.
+ *
+ * Key Points:
+ *
+ * Base Case: The condition under which the recursion stops. Without a base case, the function would call itself indefinitely, causing a stack overflow.
+ * Recursive Case: The part where the function calls itself with a smaller or simpler input.
+ *
+ * Stack Memory. Talk about stack and heap memory; explain difference and how php garbage collection takes care of
+ * freeing up memory from the heap. Stack is LIFO (Last-In-First-Out), heap.
+ *
+ * Explain stack overflow and how it happens when the stack memory is full.
+ *
+ *
+ * When a function is called, its execution context (including parameters, local variables, and the return address)
+ * is stored on the call stack.
+ *
+ * Each recursive call adds a new layer to the stack.
+ * When a function completes, it is removed from the stack, and the program resumes from where the function was called.
+ */
+
+
+Stack memory:
+
+[ - ]
+[ - ]
+[ - ]
+[ - ]

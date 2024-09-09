@@ -1,0 +1,58 @@
+{
+    "name": "gff/official",
+    "description": "Official website of Georgian Football Federation",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GFF\\Official\\": "src/"
+        },
+        "classmap": [
+            "lib/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Davit Magaldadze",
+            "email": "davitako777@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Bootcamp-Router.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Bootcamp-Temple.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Bootcamp-Config-Manager.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Bootcamp-Console.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Bootcamp-HTTP-Foundation.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:Omedia/Database-Manager.git"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/yaml": "7.2.x-dev",
+        "omedia/temple": "dev-main",
+        "omedia/router": "dev-main",
+        "omedia/config_manager": "dev-main",
+        "omedia/console": "dev-main",
+        "omdedia/db_manager": "dev-main",
+        "ext-pdo": "*",
+        "omedia/http-foundation": "dev-main"
+    }
+}

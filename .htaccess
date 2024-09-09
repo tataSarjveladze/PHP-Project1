@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Exclude the actual index.php file
+RewriteCond %{REQUEST_URI} !^/index\.php$
+
+# Exclude static files (CSS, JS, images)
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|svg|webp)$
+
+# Redirect all other requests to index.php
+RewriteRule ^(.*)$ index.php [L]

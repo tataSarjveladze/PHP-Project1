@@ -1,0 +1,9 @@
+.idea
+
+vendor
+
+# Ignore local configuration.
+config/settings.local.php
+
+# Ignore cache files.
+cache/
